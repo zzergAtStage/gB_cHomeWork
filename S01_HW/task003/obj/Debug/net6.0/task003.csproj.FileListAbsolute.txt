@@ -1,0 +1,15 @@
+C:\Users\Father\Documents\Education\GB\C#\Seminars_Ext\gB_cHomeWork\S01_HW\task003\bin\Debug\net6.0\task003.exe
+C:\Users\Father\Documents\Education\GB\C#\Seminars_Ext\gB_cHomeWork\S01_HW\task003\bin\Debug\net6.0\task003.deps.json
+C:\Users\Father\Documents\Education\GB\C#\Seminars_Ext\gB_cHomeWork\S01_HW\task003\bin\Debug\net6.0\task003.runtimeconfig.json
+C:\Users\Father\Documents\Education\GB\C#\Seminars_Ext\gB_cHomeWork\S01_HW\task003\bin\Debug\net6.0\task003.dll
+C:\Users\Father\Documents\Education\GB\C#\Seminars_Ext\gB_cHomeWork\S01_HW\task003\bin\Debug\net6.0\task003.pdb
+C:\Users\Father\Documents\Education\GB\C#\Seminars_Ext\gB_cHomeWork\S01_HW\task003\obj\Debug\net6.0\task003.csproj.AssemblyReference.cache
+C:\Users\Father\Documents\Education\GB\C#\Seminars_Ext\gB_cHomeWork\S01_HW\task003\obj\Debug\net6.0\task003.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Father\Documents\Education\GB\C#\Seminars_Ext\gB_cHomeWork\S01_HW\task003\obj\Debug\net6.0\task003.AssemblyInfoInputs.cache
+C:\Users\Father\Documents\Education\GB\C#\Seminars_Ext\gB_cHomeWork\S01_HW\task003\obj\Debug\net6.0\task003.AssemblyInfo.cs
+C:\Users\Father\Documents\Education\GB\C#\Seminars_Ext\gB_cHomeWork\S01_HW\task003\obj\Debug\net6.0\task003.csproj.CoreCompileInputs.cache
+C:\Users\Father\Documents\Education\GB\C#\Seminars_Ext\gB_cHomeWork\S01_HW\task003\obj\Debug\net6.0\task003.dll
+C:\Users\Father\Documents\Education\GB\C#\Seminars_Ext\gB_cHomeWork\S01_HW\task003\obj\Debug\net6.0\refint\task003.dll
+C:\Users\Father\Documents\Education\GB\C#\Seminars_Ext\gB_cHomeWork\S01_HW\task003\obj\Debug\net6.0\task003.pdb
+C:\Users\Father\Documents\Education\GB\C#\Seminars_Ext\gB_cHomeWork\S01_HW\task003\obj\Debug\net6.0\task003.genruntimeconfig.cache
+C:\Users\Father\Documents\Education\GB\C#\Seminars_Ext\gB_cHomeWork\S01_HW\task003\obj\Debug\net6.0\ref\task003.dll

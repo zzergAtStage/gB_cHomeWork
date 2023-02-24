@@ -8,3 +8,6 @@
 ## Home work
 ### S01 Урок 1. Знакомство с языком программирования С#
 * task001 - [задача 2](./S01_HW/task001/Program.cs)
+* task002 - [Задача 4](./S01_HW/task002/Program.cs)  
+* task003 - [Задача 6](./S01_HW/task003/Program.cs)  
+* task004 - [Задача 8](./S01_HW/task004/Program.cs)
