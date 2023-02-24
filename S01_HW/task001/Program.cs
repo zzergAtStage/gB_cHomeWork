@@ -7,7 +7,8 @@
 int GetInput(){
     string? tmp = null;
     while (tmp == null){
-        tmp = Console.ReadLine();
+        tmp = Console.ReadLine(); //этот кейс не отрабатывает.
+        //TODO - разобрать работу C# c nullable variables
         if (tmp == null){
             Console.WriteLine("Nullable vaules are forboted");
         }
