@@ -1,5 +1,5 @@
 ﻿
-class Program
+class task003
 {
     public static int GetInputNumber(string promptMessage)
     {

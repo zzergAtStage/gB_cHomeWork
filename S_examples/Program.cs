@@ -1,10 +1,12 @@
-﻿class Program
+﻿class ClassWork
 {
     public static void Main(string[] args){
         int GetInput(){
             string tmp = Console.ReadLine();
             if (tmp == null){
                 Console.WriteLine("Nullable vaules are forboted");
+                Environment.Exit(0);
+             
             }
             int res = Convert.ToInt32(tmp);
             return res;
