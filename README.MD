@@ -14,5 +14,5 @@
 * task004 - [Задача 8](./S01_HW/task004/Program.cs)
 ### S02 Урок 2. Базовые алгоритмы
 * task001 - [Задача 10](./S02_HW/task10/Program.cs)
-* task002 - [Задача 13]
-* task003 - [Задача 15]
+* task002 - [Задача 13](./S02_HW/task13/task013.cs)
+* task003 - [Задача 15](./S02_HW/taks15/task15.cs)
