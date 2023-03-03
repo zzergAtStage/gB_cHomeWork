@@ -16,3 +16,9 @@
 * task001 - [Задача 10](./S02_HW/task10/Program.cs)
 * task002 - [Задача 13](./S02_HW/task13/task013.cs)
 * task003 - [Задача 15](./S02_HW/taks15/task15.cs)
+
+### S03 Урок 3. Базовые алгоритмы. Продолжение
+
+* task001 - [Задача 19](./S03_HW/task019/task019.cs)
+* task002 - [Задача 21](./S03_HW/task021/task021.cs)
+* task003 - [Задача 23](./S03_HW/task023/Program.cs)
