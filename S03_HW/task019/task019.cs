@@ -12,11 +12,11 @@ class task019
         const int RIGTHRANGE = 99999;
         const int DECIMALDIVIDER = 10;
         static bool doCheckIntForPolindromic(int checkedValue){
-            int decimalDecrieser = 10000, tmpVaule = checkedValue, reversedValue = 0;
-            while (tmpVaule > 0)
+            int decimalDecrieser = 10000, tmpValue = checkedValue, reversedValue = 0;
+            while (tmpValue > 0)
             { //отщипываем последнее число через %, и превращаем в первый знак
-                reversedValue += (tmpVaule % DECIMALDIVIDER) * decimalDecrieser;
-                tmpVaule /= DECIMALDIVIDER;
+                reversedValue += (tmpValue % DECIMALDIVIDER) * decimalDecrieser;
+                tmpValue /= DECIMALDIVIDER;
                 decimalDecrieser /= 10;
             }
             return (checkedValue == reversedValue);

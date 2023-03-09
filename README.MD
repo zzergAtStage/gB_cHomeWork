@@ -22,3 +22,14 @@
 * task001 - [Задача 19](./S03_HW/task019/task019.cs)
 * task002 - [Задача 21](./S03_HW/task021/task021.cs)
 * task003 - [Задача 23](./S03_HW/task023/Program.cs)
+
+### S04 Урок 4. Функции
+
+Самостоятельная проверка
+* task025 - [Задача 25](./S04_HW/task025/Program.cs)
+* task027 - [Задача 27](./S04_HW/task027/Program.cs)
+* task029 - [Задача 29](./S04_HW/task029/Program.cs)
+
+### S05 Урок 5. Функции и одномерные массивы
+* examples - [seminar](./S05_HW/examples/)
+

@@ -45,6 +45,40 @@ public class Library
     {
         Console.WriteLine($"[{String.Join(", ", array)}]");
     }
+    public static void PrintArray(int[] array)
+    {
+        Console.WriteLine($"[{String.Join(", ", array)}]");
+    }
+    /// <summary>
+    /// Print array with different types of data
+    /// </summary>
+    /// <param name="arr">Incoming array of objects (two dimensions) </param>
+    /// <typeparam name="T">Type of data</typeparam>
+    public static void PrintArray<T>(T[,] arr)
+    {
+        for (int i = 0; i < arr.GetLength(0); i++)
+        {
+            for (int j = 0; j < arr.GetLength(1); j++)
+            {
+                Type elementType = arr[i, j].GetType();
+
+                if (elementType == typeof(int))
+                {
+                    Console.Write("{0,4}", arr[i, j]);
+                }
+                else if (elementType == typeof(string))
+                {
+                    Console.Write("{0,-20}", arr[i, j]);
+                }
+                else if (elementType == typeof(double))
+                {
+                    Console.Write("{0,8:F2}", arr[i, j]);
+                }
+            }
+            Console.WriteLine();
+        }
+         Console.WriteLine();
+    }
 
     public static int GetIndexOfMinimalArrayMember(double[] array)
     {
