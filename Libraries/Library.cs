@@ -3,22 +3,22 @@
 public class Library
 {
 
-    public static double[] GetRandomRealArray(int length, double leftRange, double rigthRange)
+    public static double[] GetRandomRealArray(int length, double leftRange, double rightRange)
     {
         double[] arr = new double[length];
         for (int i = 0; i < length; i++)
         {
-            arr[i] = Math.Round((Random.Shared.NextDouble() * (rigthRange - leftRange) + leftRange), 2);
+            arr[i] = Math.Round((Random.Shared.NextDouble() * (rightRange - leftRange) + leftRange), 2);
         }
 
         return arr;
     }
-    public static int[] GetRandomArray(int length, int leftRange, int rigthRange)
+    public static int[] GetRandomArray(int length, int leftRange, int rightRange)
     {
         int[] arr = new int[length];
         for (int i = 0; i < length; i++)
         {
-            arr[i] = Random.Shared.Next(leftRange, rigthRange);
+            arr[i] = Random.Shared.Next(leftRange, rightRange);
         }
 
         return arr;
