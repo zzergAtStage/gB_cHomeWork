@@ -11,7 +11,5 @@ class Program
 
         double[,] naturalNumbersArray = Library.GetRandomRealArray(m, n, -100, 100);
         Library.PrintArray(naturalNumbersArray);
-
-
     }
 }

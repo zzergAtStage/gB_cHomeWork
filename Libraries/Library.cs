@@ -67,6 +67,21 @@ public class Library
 
         return arr;
     }
+
+     public static int[,] GetRandomArray(int length, int hight, int leftRange, int rightRange)
+    {
+        int[,] arr = new int[length,hight];
+        for (int i = 0; i < length; i++)
+        {
+            for (int j = 0; j < hight; j++)
+            {
+                 arr[i,j] = Random.Shared.Next(leftRange, rightRange);
+            }
+           
+        }
+
+        return arr;
+    }
     //input of integer array with fix dimension
     public static int[] GetArrayWithFixSize(int size, string prompt = "")
     {
