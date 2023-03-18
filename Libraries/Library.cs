@@ -2,6 +2,34 @@
 
 public class Library
 {
+    //input one integer with prompt
+    public static int GetNumber(string prompt = "")
+    {
+        System.Console.Write($"{prompt}: ");
+        int number = int.Parse(Console.ReadLine());
+        return number;
+    }
+    //getting a dynamic variable to make an 41th task
+    public static dynamic GetInputFromUser(string prompt)
+    {
+        Console.Write(prompt + " ");
+        string input = Console.ReadLine();
+
+        int intValue;
+        if (int.TryParse(input, out intValue))
+        {
+            return intValue;
+        }
+
+        double doubleValue;
+        if (double.TryParse(input, out doubleValue))
+        {
+            return doubleValue;
+        }
+
+        return input;
+    }
+
 
     public static double[] GetRandomRealArray(int length, double leftRange, double rightRange)
     {
@@ -13,6 +41,22 @@ public class Library
 
         return arr;
     }
+    //two dimension array
+    public static double[,] GetRandomRealArray(int length, int hight, double leftRange, double rightRange)
+    {
+        double[,] arr = new double[length,hight];
+        for (int i = 0; i < length; i++)
+        {
+            for (int j = 0; j < hight; j++)
+            {
+              arr[i,j] = Math.Round((Random.Shared.NextDouble() * (rightRange - leftRange) + leftRange), 2);  
+            }
+            
+        }
+
+        return arr;
+    }
+
     public static int[] GetRandomArray(int length, int leftRange, int rightRange)
     {
         int[] arr = new int[length];
@@ -23,10 +67,22 @@ public class Library
 
         return arr;
     }
+    //input of integer array with fix dimension
+    public static int[] GetArrayWithFixSize(int size, string prompt = "")
+    {
+        int[] inputArray = new int[size];
+        Console.WriteLine($"{prompt}:");
+        for (int i = 0; i < size; i++)
+        {
+            Console.WriteLine($"  Input number #{i + 1}: ");
+            inputArray[i] = int.Parse(Console.ReadLine());
+        }
+        return inputArray;
+    }
     public static (int, int) SumPositiveAndNegotiveElements(int[] arr)
     {
-        int sumPositive = 0; //summ of positive elements of array
-        int sumNegative = 0; //summ of negative elements of array
+        int sumPositive = 0; //sum of positive elements of array
+        int sumNegative = 0; //sum of negative elements of array
 
         foreach (int num in arr)
         {
@@ -77,7 +133,7 @@ public class Library
             }
             Console.WriteLine();
         }
-         Console.WriteLine();
+        Console.WriteLine();
     }
 
     public static int GetIndexOfMinimalArrayMember(double[] array)
@@ -110,10 +166,11 @@ public class Library
         }
         return maxIndex;
     }
-    public static int GetCountOfDigits(int tstNumber, int leftRange = 0){
+    public static int GetCountOfDigits(int tstNumber, int leftRange = 0)
+    {
         int CountOfDigits = -1;
         int i = 1;
-        for (; tstNumber > leftRange ; i++)
+        for (; tstNumber > leftRange; i++)
         {
             tstNumber /= 10;
             //System.Console.WriteLine($".GetCountOfDigits = {tstNumber}");
@@ -121,7 +178,7 @@ public class Library
         }
         return CountOfDigits;
     }
-    
+
     public static int getDigitByPosition(int value, int inrow)
     {
         // вычисляем на сколько разрядов поделить исходное, что бы получить нужное
@@ -144,7 +201,7 @@ public class Library
             sum = sum + (number % 10);
             number /= 10;
         }
-        return sum ;
+        return sum;
     }
     public static int GetInputIntNumber(int numberOfDigit
                         , bool doCheck = false
@@ -152,9 +209,12 @@ public class Library
     {
         int result = 0;
         string resultS;
-        if (numberOfDigit == 0) {
+        if (numberOfDigit == 0)
+        {
             Console.Write($"{message}");
-        } else {
+        }
+        else
+        {
             Console.Write($"{message} with {numberOfDigit} digits: ");
         }
 
@@ -174,7 +234,7 @@ public class Library
                 goAcross = false;
                 result = int.Parse(resultS);
             }
-            
+
 
         }
         else

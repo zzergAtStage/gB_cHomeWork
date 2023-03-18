@@ -59,3 +59,23 @@
 </details>
 
 * task038 - [Задача 38](./S05_HW/task038/Program.cs)
+</details>
+
+## S07 Семинар 07
+
+<details>
+<summary> <b>Урок 7. Двумерные массивы</b> </summary>
+
+
+<details>
+<summary>Задача 47</summary>
+Задача 47. Задайте двумерный массив размером m×n, заполненный случайными вещественными числами.</br>
+m = 3, n = 4.</br>
+0,5 7 -2 -0,2</br>
+1 -3,3 8 -9,9</br>
+8 7,8 -7,1 9</br>
+<p>Решение: <a href="./S07_HW/task047/Program.cs" title="task047"> task047.Prorgam.sc </a></p>
+</details>
+
+
+</details>
