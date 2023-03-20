@@ -61,7 +61,7 @@
 * task038 - [Задача 38](./S05_HW/task038/Program.cs)
 </details>
 
-## S07 Семинар 07
+### S07 Семинар 07#
 
 <details>
 <summary> <b>Урок 7. Двумерные массивы</b> </summary>
@@ -104,4 +104,24 @@ m = 3, n = 4.</br>
 <p>Решение <a href=".\S07_HW\task052\Program.cs" title="task052"> task052.Prorgam.sc </a></p>
 </details>
 
+</details>
+
+
+### S08. Семинар 08 ###
+
+<details>
+<summary><b>Урок 8. Двумерные массивы. Продолжение</b></summary>
+
+<details>
+<summary>Задача 54</summary>
+Задайте двумерный массив. Напишите программу, которая упорядочит по убыванию элементы каждой строки двумерного массива.
+Например, задан массив:</br>
+1 4 7 2</br>
+5 9 2 3</br>
+8 4 2 4</br>
+<p> Решение: <a href="./S08_HW/task054/Program.cs" title="task054"> task054.Prorgam.sc </a></p>
+</details>
+
+
+<!--end of homework -->
 </details>
