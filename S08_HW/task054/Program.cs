@@ -17,21 +17,23 @@ class Program
             int tmpArrayMember = 0;
             for (int j = 0; j < randomArray.GetLength(1); j++)
             {
-                int minPosition = j;
+                int maxValPosition = j;
                 //get minimal member of row
                 for (int x = j; x < randomArray.GetLength(1); x++)
                 {
-                    if (randomArray[i, x] < randomArray[i, minPosition]) minPosition = x;
+                    if (randomArray[i, x] > randomArray[i, maxValPosition]) maxValPosition = x;
                 }
-
-                if (randomArray[i, j] > randomArray[i, minPosition])
+                //System.Console.WriteLine($" maxValPosition = {maxValPosition}; row = [{i}], j ={j}");
+                //swap minMembers via rows
+                if (randomArray[i, j] < randomArray[i, maxValPosition])
                 {
                     tmpArrayMember = randomArray[i, j];
-                    randomArray[i, j] = randomArray[i, minPosition];
-                    randomArray[i, minPosition] = tmpArrayMember;
+                    randomArray[i, j] = randomArray[i, maxValPosition];
+                    randomArray[i, maxValPosition] = tmpArrayMember;
                 }
             }
         }
+        System.Console.WriteLine("Ordered array:");
         Library.PrintArray(randomArray);
 
     }
