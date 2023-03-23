@@ -187,7 +187,7 @@ m = 3, n = 4.</br>
 Задайте значение N. Напишите программу, которая выведет все четные натуральные числа в промежутке от m до N . Выполнить с помощью рекурсии.</br>
 M, N = 5, 8 -> "6, 8"</br>
 M, N = 2, 4 -> "2, 4"</br>
-<p> Solution: <a href="./" title="title"> taskNN.Prorgam.sc </a></p>
+<p> Solution: <a href="./S09_HW/task001/Program.cs" title="Задача 1"> task001.Prorgam.sc </a></p>
 </details>
 <!--end of homework -->
 </details>
