@@ -14,22 +14,21 @@ class Program
     static string OutputEvenNaturalNumbersToStoring(int pLeftRange, int pRightRange)
     {
         string tmpResult = String.Empty;
-        if (pLeftRange >= pRightRange)
+        if (pLeftRange > pRightRange)
         {
             return tmpResult;
         }
-        //pLeftRange++; why doesn't work increment in the methods call
         if (pLeftRange % 2 == 0)
         {
             if (pLeftRange == pRightRange) { //i hate non beautified output
-                return tmpResult + $"{pLeftRange} {OutputEvenNaturalNumbersToStoring(pLeftRange, pRightRange)}";
+                return tmpResult + $"{pLeftRange} {OutputEvenNaturalNumbersToStoring(++pLeftRange, pRightRange)}";
             } else {
-                return tmpResult + $"{pLeftRange}, {OutputEvenNaturalNumbersToStoring(pLeftRange, pRightRange)}";
+                return tmpResult + $"{pLeftRange}, {OutputEvenNaturalNumbersToStoring(++pLeftRange, pRightRange)}";
             }
         }
         else
         {
-            return OutputEvenNaturalNumbersToStoring(pLeftRange, pRightRange);
+            return OutputEvenNaturalNumbersToStoring(++pLeftRange, pRightRange);
         }
     }
 }
