@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <ProjectReference Include="..\..\gB_cHomeWork.csproj" />
+    <ProjectReference Include="..\..\Libraries\Libraries.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

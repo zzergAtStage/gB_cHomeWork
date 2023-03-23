@@ -4,14 +4,14 @@
 // 7 -> да
 // 1 -> нет
 
-using HomeWork;
+using Libraries;
 namespace taks15;
 class taks15
 {
     static void Main(string[] args)
     {
       Console.Clear();
-      int dayOfWeek = HomeWork.Library.GetInputIntNumber(1,true, "Day of week:");
+      int dayOfWeek = Library.GetInputIntNumber(1,true, "Day of week:");
       if (dayOfWeek == 6 || dayOfWeek == 7) {
         System.Console.WriteLine($" {dayOfWeek} -> Yes");
       }  else

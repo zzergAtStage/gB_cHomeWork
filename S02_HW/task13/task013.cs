@@ -1,4 +1,4 @@
-﻿using HomeWork;
+﻿using Libraries;
 namespace task13;
 class task013
 {
@@ -9,12 +9,12 @@ class task013
     // 78 -> третьей цифры нет
     // 32679 -> 6    
         Console.Clear();
-        int number = HomeWork.Library.GetInputIntNumber(0,false);
+        int number = Library.GetInputIntNumber(0,false);
        
         if (number < 100) {
             System.Console.WriteLine($" There is no Third digit by [{number}]");
         } else {
-            int res = HomeWork.Library.getDigitByPosition(number,0);//функция реализована НЕ ЧЕРЕЗ МАССИВ
+            int res = Library.getDigitByPosition(number,0);//функция реализована НЕ ЧЕРЕЗ МАССИВ
             System.Console.WriteLine($" Third digit of [{number}] -> {res}");
         }
     }
