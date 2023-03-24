@@ -214,7 +214,7 @@ m = 3, n = 2 -> A(m,n) = 29</br>
 <summary>Задача со звездочкой</summary>
 Найти второй максимум в массиве. (Без сортировки!)</br>
 4, 4, 3, 0, 2 => 3</br>
-<p>Solution: <a href="./" title="title"> taskNN.Prorgam.sc </a></p>
+<p>Solution: <a href="./S09_HW/taskWithAsterisk/Program.cs" title="taskWithAsterisk"> taskWithAsterisk.Prorgam.sc </a></p>
 </details>
 
 <!--end of homework -->
