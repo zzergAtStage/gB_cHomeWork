@@ -181,7 +181,7 @@ m = 3, n = 4.</br>
 ### S09. Recoursion & **Final project** ###
 <details>
 <summary>Урок 9. Рекурсия</summary>
-
+<p><a href="https://gb.ru/lessons/305576" title="Ссылка на урок 9"> Урок 9. Рекурсии</a></p>
 <details>
 <summary>Задача 1</summary>
 Задайте значение N. Напишите программу, которая выведет все четные натуральные числа в промежутке от m до N . Выполнить с помощью рекурсии.</br>
@@ -189,5 +189,33 @@ M, N = 5, 8 -> "6, 8"</br>
 M, N = 2, 4 -> "2, 4"</br>
 <p> Solution: <a href="./S09_HW/task001/Program.cs" title="Задача 1"> task001.Prorgam.sc </a></p>
 </details>
+
+<details>
+<summary>Задача 2</summary>
+Задача 2: Задайте значения M и N. Напишите программу, которая найдёт сумму натуральных элементов в промежутке от M до N.</br>
+M = 1; N = 15 -> 120</br>
+M = 4; N = 8. -> 30</br>
+
+<p> Solution:<a href="./S09_HW/task002/Program.cs" title="task002"> task002.Prorgam.sc </a></p>
+</details>
+
+
+<details>
+<summary>Задача 3</summary>
+Задача 3: Напишите программу вычисления функции Аккермана с помощью рекурсии. Даны два неотрицательных числа m и n.</br>
+m = 2, n = 3 -> A(m,n) = 9</br>
+m = 3, n = 2 -> A(m,n) = 29</br>
+
+<p>Solution: <a href="./S09_HW/task003/Program.cs" title="task003"> task003.Prorgam.sc </a></p>
+</details>
+
+
+<details>
+<summary>Задача со звездочкой</summary>
+Найти второй максимум в массиве. (Без сортировки!)</br>
+4, 4, 3, 0, 2 => 3</br>
+<p>Solution: <a href="./" title="title"> taskNN.Prorgam.sc </a></p>
+</details>
+
 <!--end of homework -->
 </details>
